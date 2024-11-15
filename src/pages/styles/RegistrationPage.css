@@ -1,0 +1,141 @@
+.registration-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 60px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Left Section Styles */
+.content-left {
+  flex: 1;
+  margin-right: 30px;
+  padding-left: 20px;
+}
+
+.content-left h2 {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.content-left h2 span {
+  display: block;
+  font-weight: normal;
+  font-size: 1.6rem;
+}
+
+.content-left p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.promotions {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.promotion-item {
+  text-align: center;
+  flex: 1;
+}
+
+.promotion-item img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.promotion-item strong {
+  font-size: 0.9rem;
+  color: #333;
+  text-align: center;
+  max-height: 2.4em; /* Adjusts to limit to two lines */
+  line-height: 1.2em; /* Sets the height of each line */
+  overflow: hidden; /* Hides overflow text */
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Limits to two lines */
+  -webkit-box-orient: vertical;
+}
+
+
+/* Right Section Styles */
+.content-right {
+  width: 40%;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+}
+
+/* Partner Logos Layout */
+.partners {
+  margin-top: 40px;
+}
+
+.partners h3 {
+  font-size: 1.4rem;
+}
+
+.partners p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.partner-logos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.partner-logos img {
+  width: 100px;
+  height: auto;
+}
+
+.partner-logos img:nth-last-child(-n+2) {
+  grid-column: span 1 / span 1;
+}
+
+/* Bottom Image Section */
+.bottom-image-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.bottom-image-section img {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+/* Carousel Section */
+.carousel-section {
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-right {
+    width: 100%;
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,66 @@
+/* Carousel container */
+.testimonial-carousel {
+    background-color: #000; /* Black background */
+    color: white; /* White text for contrast */
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .testimonial-card {
+    background-color: #333; /* Dark gray background for each testimonial */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .testimonial-quote {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+  
+  .testimonial-name {
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .testimonial-position {
+    font-size: 1rem;
+    color: #aaa;
+  }
+  
+  .company-info {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .company-logo {
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .company-name {
+    font-size: 1rem;
+    color: #ccc;
+  }
+  

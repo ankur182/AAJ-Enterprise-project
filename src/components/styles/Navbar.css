@@ -1,0 +1,57 @@
+/* src/components/styles/Navbar.css */
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-logo .logo-image {
+  height: 40px;
+}
+
+.navbar-links {
+  display: flex;
+  list-style-type: none;
+  gap: 20px; /* Space between links */
+}
+.track-shipment-link {
+  color: red; /* Change text color to red */
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #000; /* Black color for text */
+  font-weight: bold; /* Bold text for links */
+}
+
+.navbar-link:hover {
+  color: #007bff; /* Optional: Hover color */
+}
+
+.navbar-login {
+  display: flex;
+  align-items: center;
+}
+
+.login-button {
+  padding: 8px 16px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #0056b3; /* Optional: Darker on hover */
+}
+
